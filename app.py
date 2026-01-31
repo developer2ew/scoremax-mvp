@@ -70,3 +70,9 @@ if st.button("Get Decision"):
 
     st.markdown("---")
     st.caption("ScoreMax MVP – Decision logic inspired by UPSC Prelims strategy")
+
+if st.button("Give 30-second Feedback"):
+    st.markdown(
+        "[Open Feedback Form](https://forms.gle/eaNV6W8ECoa3LiAa9)",
+        unsafe_allow_html=True
+    )
