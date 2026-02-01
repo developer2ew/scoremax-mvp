@@ -1,13 +1,14 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="ScoreMax – UPSC Prelims",
+    page_title="AttemptIQ – UPSC Prelims Attempt/Skip Decision Tool",
     layout="centered"
 )
 
-st.title("ScoreMax")
-st.subheader("UPSC Prelims GS Paper-I Decision Assistant")
+st.title("AttemptIQ")
+st.subheader("UPSC Prelims GS Paper-I Attempt / Skip Decision Assistant")
 
+st.caption("Decide before you attempt.")
 st.markdown("---")
 
 st.markdown("### Step 1: Paste the Question (optional)")
